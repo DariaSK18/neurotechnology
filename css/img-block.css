@@ -79,7 +79,7 @@
   height: 100%;
   /*aspect-ratio: 207/68;*/
   border-radius: 0.625rem;
-  background-color: rgb(63, 63, 63);
+  background-color: var(--secondary-color);
   grid-column: 4;
   grid-row: 1;
   font-family: "Inter", sans-serif;
@@ -89,7 +89,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.25rem;
-  color: whitesmoke;
+  color: var(--text-color);
 }
 @media (max-width: 43.75em) {
   .block-img__order {

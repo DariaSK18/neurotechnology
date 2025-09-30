@@ -1,0 +1,22 @@
+/* Define CSS variables for light and dark mode */
+:root {
+    /* --bg-color: #e81717;
+    --text-color: #000000;
+    --table-border-color: #dddddd;
+    --header-bg-color: #f1f1f1;
+    --header-text-color: #333333; */
+
+    --primary-color: #154D71;
+    --secondary-color: #1C6EA4;
+    --text-color: #FFF9AF;
+    --text-shadow-color: #e99b9b;
+}
+
+/* Dark mode variables */
+/* .dark-mode {
+    --bg-color: #2e2e2e;
+    --text-color: #f1f1f1;
+    --table-border-color: #555555;
+    --header-bg-color: #444444;
+    --header-text-color: #ffffff;
+} */
