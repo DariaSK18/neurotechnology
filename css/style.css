@@ -3,6 +3,7 @@
 @import url(./img-block.css);
 @import url(./_variables.css);
 @import url(./clinic.css);
+@import url(./registry.css);
 
 /* ----- common styles ----- */
 body {

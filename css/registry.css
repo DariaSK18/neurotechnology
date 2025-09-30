@@ -1,18 +1,57 @@
 .main {
 
-		.main__container {
+		.registry-container {
+            display: flex;
+            flex-direction: row;
+            gap: 5rem;
+            justify-content: space-between;
+            padding: 2rem 0 3rem 0;
 		}
 
 		.main__img {
+            width: 30rem;
+            background: url(../img/arm.png) center no-repeat, url(../img/rectangle.png) center no-repeat;
+            background-size: contain;
+
 		}
 
 		.main__form {
+            flex-grow: 1;
 		}
 }
 .form-container {
 
 		.form-container__form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            
 		}
 		.form-container__title {
+            font-size: 2rem;
+            margin-bottom: 3rem;
+            text-align: center;
+            text-shadow: 0.1rem 0.1rem 0.3rem var(--text-shadow-color);
 		}
+        label {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        input, textarea {
+                border: 0.1rem solid var(--text-color);
+                padding: 1rem;
+                border-radius: 0.5rem;
+            }
+            .checkbox {
+                flex-direction: row;
+            }
+            textarea{
+                width: 100%;
+                min-height: 7rem;
+            }
+            button {
+                align-self: center;
+                min-width: 8rem;
+            }
 }
