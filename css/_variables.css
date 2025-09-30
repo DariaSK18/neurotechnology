@@ -11,6 +11,8 @@
     --secondary-color: rgba(249, 226, 231, 0.625);
     --text-color: black;
     --text-shadow-color: rgb(210, 147, 147);
+    --label-color: grey;
+    --block-plate-color: rgba(255, 201, 201, 0.863);
 }
 
 /* Dark mode variables */
