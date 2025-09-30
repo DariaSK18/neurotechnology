@@ -6,10 +6,11 @@
     --header-bg-color: #f1f1f1;
     --header-text-color: #333333; */
 
-    --primary-color: #154D71;
-    --secondary-color: #1C6EA4;
-    --text-color: #FFF9AF;
-    --text-shadow-color: #e99b9b;
+    --primary-color: 
+    white;
+    --secondary-color: rgba(249, 226, 231, 0.625);
+    --text-color: black;
+    --text-shadow-color: rgb(210, 147, 147);
 }
 
 /* Dark mode variables */
