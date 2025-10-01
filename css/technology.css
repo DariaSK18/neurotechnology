@@ -1,15 +1,22 @@
-
 .content {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  .content__title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+@media (max-width: 46.25rem) {
+  .content {
+    gap: 1rem;
     .content__title {
-        font-size: 2.5rem;
-        text-align: center;
+        font-size: 2rem;
     }
 }
+}
 
- .tech__container {
+.tech__container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr));
   align-items: stretch;
@@ -24,14 +31,14 @@
   padding-right: 0;
   background-color: var(--secondary-color);
   position: relative;
-} 
+}
 @media (max-width: 31.25em) {
-  .card{
+  .card {
     padding: 1.25rem;
     padding-right: 0;
   }
-} 
-  .card::before {
+}
+.card::before {
   top: 0;
   right: 5rem;
 }
@@ -45,43 +52,43 @@
     font-size: 1.6875rem;
   }
 }
-   @media (min-width: 20em) and (max-width: 55.875em) {
-  @supports (font-size: clamp( 1.25rem , 1.006097561rem  +  1.2195121951vw , 1.6875rem )) {
+@media (min-width: 20em) and (max-width: 55.875em) {
+  @supports (font-size: clamp(1.25rem, 1.006097561rem + 1.2195121951vw, 1.6875rem)) {
     .card__title {
-      font-size: clamp( 1.25rem , 1.006097561rem  +  1.2195121951vw , 1.6875rem );
+      font-size: clamp(1.25rem, 1.006097561rem + 1.2195121951vw, 1.6875rem);
     }
   }
-  @supports not (font-size: clamp( 1.25rem , 1.006097561rem  +  1.2195121951vw , 1.6875rem )) {
+  @supports not (font-size: clamp(1.25rem, 1.006097561rem + 1.2195121951vw, 1.6875rem)) {
     .card__title {
       font-size: calc(1.25rem + 0.4375 * (100vw - 20rem) / 35.875);
     }
   }
 }
-  @media (max-width: 20em) {
+@media (max-width: 20em) {
   .card__title {
     font-size: 1.25rem;
   }
-} 
+}
 .card__title:not(:last-child) {
   margin-bottom: 0.8888888889em;
-} 
- .card__text {
+}
+.card__text {
   color: var(--text-color);
   font-family: "Inter", sans-serif;
   line-height: 1.6;
-} 
- @media (min-width: 55.875em) {
+}
+@media (min-width: 55.875em) {
   .card__text {
     font-size: 1.125rem;
   }
 }
 @media (min-width: 20em) and (max-width: 55.875em) {
-  @supports (font-size: clamp( 1rem , 0.9303135889rem  +  0.3484320557vw , 1.125rem )) {
+  @supports (font-size: clamp(1rem, 0.9303135889rem + 0.3484320557vw, 1.125rem)) {
     .card__text {
-      font-size: clamp( 1rem , 0.9303135889rem  +  0.3484320557vw , 1.125rem );
+      font-size: clamp(1rem, 0.9303135889rem + 0.3484320557vw, 1.125rem);
     }
   }
-  @supports not (font-size: clamp( 1rem , 0.9303135889rem  +  0.3484320557vw , 1.125rem )) {
+  @supports not (font-size: clamp(1rem, 0.9303135889rem + 0.3484320557vw, 1.125rem)) {
     .card__text {
       font-size: calc(1rem + 0.125 * (100vw - 20rem) / 35.875);
     }
@@ -134,27 +141,66 @@
   line-height: 1.2;
 }
 .card__right--one::before {
-    background-image: url(../img/tech/implant.png);
+  background-image: url(../img/tech/implant.png);
 }
 .card__right--two::before {
-    background-image: url(../img/tech/robot.png);
+  background-image: url(../img/tech/robot.png);
 }
 .card__right--three::before {
-    background-image: url(../img/tech/robot.png);
+  background-image: url(../img/tech/robot.png);
 }
 .card__right--four::before {
-    background-image: url(../img/logo/logo-6-nbg.png);
+  background-image: url(../img/logo/logo-6-nbg.png);
 }
 .card__right--five::before {
-    background-image: url(../img/tech/implant.png);
+  background-image: url(../img/tech/implant.png);
 }
 .card__right--six::before {
-    background-image: url(../img/tech/implant.png);
+  background-image: url(../img/tech/implant.png);
 }
 .card__corner {
   width: 100%;
   aspect-ratio: 1/1;
   flex-shrink: 0;
-  clip-path: polygon(0% 0%, 0% 0%, 3.717% 0.543%, 7.114% 1.612%, 10.167% 3.131%, 12.854% 5.025%, 15.152% 7.217%, 17.038% 9.632%, 18.488% 12.194%, 19.481% 14.826%, 19.992% 17.454%, 20% 20%, 20% 54%, 20% 54%, 20% 58.193%, 20.858% 62.159%, 22.468% 65.852%, 24.726% 69.222%, 27.527% 72.223%, 30.765% 74.806%, 34.337% 76.923%, 38.137% 78.526%, 42.059% 79.568%, 46% 80%, 80% 80%, 80% 80%, 83.896% 80.523%, 87.406% 81.582%, 90.519% 83.1%, 93.219% 84.998%, 95.493% 87.198%, 97.328% 89.623%, 98.71% 92.194%, 99.625% 94.832%, 100.06% 97.46%, 100% 100%, 0% 100%, 0% 0%);
+  clip-path: polygon(
+    0% 0%,
+    0% 0%,
+    3.717% 0.543%,
+    7.114% 1.612%,
+    10.167% 3.131%,
+    12.854% 5.025%,
+    15.152% 7.217%,
+    17.038% 9.632%,
+    18.488% 12.194%,
+    19.481% 14.826%,
+    19.992% 17.454%,
+    20% 20%,
+    20% 54%,
+    20% 54%,
+    20% 58.193%,
+    20.858% 62.159%,
+    22.468% 65.852%,
+    24.726% 69.222%,
+    27.527% 72.223%,
+    30.765% 74.806%,
+    34.337% 76.923%,
+    38.137% 78.526%,
+    42.059% 79.568%,
+    46% 80%,
+    80% 80%,
+    80% 80%,
+    83.896% 80.523%,
+    87.406% 81.582%,
+    90.519% 83.1%,
+    93.219% 84.998%,
+    95.493% 87.198%,
+    97.328% 89.623%,
+    98.71% 92.194%,
+    99.625% 94.832%,
+    100.06% 97.46%,
+    100% 100%,
+    0% 100%,
+    0% 0%
+  );
   background-color: var(--secondary-color);
 }

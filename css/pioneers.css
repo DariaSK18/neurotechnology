@@ -55,8 +55,18 @@
         flex-grow: 0;
     }
 }
+@media (max-width: 46.25rem) {
+  .pioneers {
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  }
+  .wanted {
+    margin-bottom: 1rem;
+  }
+}
 .wanted {
     margin-bottom: 2rem;
+    flex-wrap: wrap;
     display: flex;
     gap: 1rem;
     justify-content: space-around;
