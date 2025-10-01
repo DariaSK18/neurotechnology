@@ -20,7 +20,7 @@ Built with **HTML5, CSS**, this project demonstrates interactive UI components, 
 ---
 
 ## 📸 Screenshots
-<div style="display🧇">
+<div style="display:flex">
 <img src="screenshots/screenshot-0.png" width="30%" alt="App Screenshot">
 <img src="screenshots/screenshot-1.png" width="30%" alt="App Screenshot">
 <img src="screenshots/screenshot-2.png" width="30%" alt="App Screenshot">
