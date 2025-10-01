@@ -21,8 +21,12 @@ Built with **HTML5, CSS**, this project demonstrates interactive UI components, 
 
 ## 📸 Screenshots
 
-![App Screenshot](screenshots/home.png)
-![App Screenshot](screenshots/add-book.png)
+![App Screenshot](screenshots/screenshot-0.png)
+![App Screenshot](screenshots/screenshot-1.png)
+![App Screenshot](screenshots/screenshot-2.png)
+![App Screenshot](screenshots/screenshot-3.png)
+![App Screenshot](screenshots/screenshot-4.png)
+![App Screenshot](screenshots/screenshot-5.png)
 
 ---
 
