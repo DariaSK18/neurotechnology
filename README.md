@@ -20,12 +20,14 @@ Built with **HTML5, CSS**, this project demonstrates interactive UI components, 
 ---
 
 ## 📸 Screenshots
-<img src="screenshots/screenshot-0.png" width="50%" alt="App Screenshot">
-<img src="screenshots/screenshot-1.png" width="50%" alt="App Screenshot">
-<img src="screenshots/screenshot-2.png" width="50%" alt="App Screenshot">
-<img src="screenshots/screenshot-3.png" width="50%" alt="App Screenshot">
-<img src="screenshots/screenshot-4.png" width="50%" alt="App Screenshot">
-<img src="screenshots/screenshot-5.png" width="50%" alt="App Screenshot">
+<div style="display⚜️">
+<img src="screenshots/screenshot-0.png" width="40%" alt="App Screenshot">
+<img src="screenshots/screenshot-1.png" width="40%" alt="App Screenshot">
+<img src="screenshots/screenshot-2.png" width="40%" alt="App Screenshot">
+<img src="screenshots/screenshot-3.png" width="40%" alt="App Screenshot">
+<img src="screenshots/screenshot-4.png" width="40%" alt="App Screenshot">
+<img src="screenshots/screenshot-5.png" width="40%" alt="App Screenshot">
+</div>
 <!-- ![App Screenshot](screenshots/screenshot-0.png)
 ![App Screenshot](screenshots/screenshot-1.png)
 ![App Screenshot](screenshots/screenshot-2.png)
