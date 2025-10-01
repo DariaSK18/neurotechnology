@@ -96,10 +96,4 @@
         background: url(../img/h-r-arms.jpg) center no-repeat;
         background-size: cover;
     }
-    .wanted__title {
-    }
-    .wanted__btn {
-        /* color: var(--secondary-color);
-        border: 0.1rem solid var(--secondary-color); */
-    }
 }
