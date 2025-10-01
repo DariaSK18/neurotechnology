@@ -1,11 +1,5 @@
 /* Define CSS variables for light and dark mode */
 :root {
-    /* --bg-color: #e81717;
-    --text-color: #000000;
-    --table-border-color: #dddddd;
-    --header-bg-color: #f1f1f1;
-    --header-text-color: #333333; */
-
     --primary-color: 
     white;
     --secondary-color: rgba(249, 226, 231, 0.625);
