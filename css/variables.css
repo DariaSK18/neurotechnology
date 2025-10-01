@@ -9,30 +9,5 @@
     --block-plate-color: rgba(159, 218, 255, 0.81);
     --hover-btn-color: rgba(159, 218, 255, 0.312);
 
-
-    /* --primary-color: 
-    whitesmoke;
-    --secondary-color: rgba(249, 226, 231, 0.625);
-    --text-color: black;
-    --text-shadow-color: rgba(251, 195, 195, 0.558);
-    --label-color: grey;
-    --block-plate-color: rgba(255, 201, 201, 0.863);
-    --hover-btn-color: rgba(184, 184, 184, 0.494); */
-
-    /* --primary-color: 
-    rgb(147, 145, 145);
-    --secondary-color: rgba(249, 226, 231, 0.625);
-    --text-color: white;
-    --text-shadow-color: rgb(210, 147, 147);
-    --label-color: grey;
-    --block-plate-color: rgba(255, 201, 201, 0.863); */
 }
 
-/* Dark mode variables */
-/* .dark-mode {
-    --bg-color: #2e2e2e;
-    --text-color: #f1f1f1;
-    --table-border-color: #555555;
-    --header-bg-color: #444444;
-    --header-text-color: #ffffff;
-} */

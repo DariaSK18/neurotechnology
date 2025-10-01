@@ -96,12 +96,6 @@ nav a:hover, .header__site-brand:hover, li a:hover {
             gap: 1rem;
         }
     }
-    /* .header__button {
-        border: 0.1rem solid black;
-        border-radius: 1.5rem;
-        padding: 0.5rem;
-        cursor: pointer;
-    } */
 }
 
 /* ----- main styles ----- */
@@ -109,8 +103,6 @@ nav a:hover, .header__site-brand:hover, li a:hover {
     padding-top: 5rem;
 
     .main__hero {
-        /* display: flex;
-        align-items: end; */
         background: url(../img/bg-1.jpg) no-repeat;
         background-size: cover;
         background-position: center;

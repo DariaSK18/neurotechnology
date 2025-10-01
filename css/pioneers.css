@@ -24,7 +24,6 @@
         overflow: hidden;
         height: 100%;
         align-items: stretch;
-        /* max-height: fit-content; */
         .pioneers__img {
             width: 40%;
             object-fit: cover;
