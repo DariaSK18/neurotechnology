@@ -63,6 +63,20 @@ li a:hover {
     transform: scale(1.08);
     text-shadow: 0.02em 0.02em 0.02em var(--text-shadow-color);
 }
+@media (hover: none) {
+    a:hover {
+        transform: scale(1);
+    }
+    nav a:hover,
+    .header__site-brand:hover,
+    li a:hover {
+        transform: scale(1);
+        text-shadow: none;
+    }
+    button:hover {
+        background: var(--hover-btn-color);
+    }
+}
 
 /* ----- header styles ----- */
 .header {
