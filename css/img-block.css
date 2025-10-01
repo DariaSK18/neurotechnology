@@ -370,13 +370,13 @@
   align-items: center;
   gap: 0.25rem;
 }
-.block-img__explore span::after {
+/* .block-img__explore span::after {
   content: "";
   height: 1.25rem;
   width: 1.875rem;
-  background: url("../img/arrow.svg") no-repeat center/cover;
+  background: url("../img/arrow.svg") no-repeat center/cover; 
   transition: transform 0.3s;
-}
+} */
 @media (any-hover: hover) {
   .block-img__explore:hover {
     background-color: var(--text-shadow-color);
@@ -388,7 +388,7 @@
 
 .stats {
   border-radius: 0.75rem;
-  background: url(../img/neurotechnology-bg.webp) 0 0 no-repeat;
+  background: url(../img/tech.jpg) 0 0 no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -501,142 +501,4 @@
   height: 100%;
   object-fit: cover;
 }
-
-/* .demonical-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr));
-  gap: 1.5625rem;
-}
-
-.demonical-card {
-  width: calc(100% - 6.25rem);
-  aspect-ratio: 590/281;
-  border-radius: 1.25rem 0 0 1.25rem;
-  padding: 2.5rem;
-  padding-right: 0;
-  background-color: #fff;
-  position: relative;
-} */
-/* .demonical-card:nth-child(n) {
-  counter-increment: cardCounter;
-}
-@media (max-width: 31.25em) {
-  .demonical-card {
-    padding: 1.25rem;
-    padding-right: 0;
-  }
-} */
-/* .demonical-card::before {
-  top: 0;
-  right: 5rem;
-}
-.demonical-card__title {
-  color: #212121;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  line-height: 1.2;
-}
-@media (min-width: 55.875em) {
-  .demonical-card__title {
-    font-size: 1.6875rem;
-  }
-} */
-/* @media (min-width: 20em) and (max-width: 55.875em) {
-  @supports (font-size: clamp( 1.25rem , 1.006097561rem  +  1.2195121951vw , 1.6875rem )) {
-    .demonical-card__title {
-      font-size: clamp( 1.25rem , 1.006097561rem  +  1.2195121951vw , 1.6875rem );
-    }
-  }
-  @supports not (font-size: clamp( 1.25rem , 1.006097561rem  +  1.2195121951vw , 1.6875rem )) {
-    .demonical-card__title {
-      font-size: calc(1.25rem + 0.4375 * (100vw - 20rem) / 35.875);
-    }
-  }
-} */
-/* @media (max-width: 20em) {
-  .demonical-card__title {
-    font-size: 1.25rem;
-  }
-} */
-/* .demonical-card__title:not(:last-child) {
-  margin-bottom: 0.8888888889em;
-} */
-/* .demonical-card__text {
-  color: #212121;
-  font-family: "Inter", sans-serif;
-  line-height: 1.6;
-} */
-/* @media (min-width: 55.875em) {
-  .demonical-card__text {
-    font-size: 1.125rem;
-  }
-}
-@media (min-width: 20em) and (max-width: 55.875em) {
-  @supports (font-size: clamp( 1rem , 0.9303135889rem  +  0.3484320557vw , 1.125rem )) {
-    .demonical-card__text {
-      font-size: clamp( 1rem , 0.9303135889rem  +  0.3484320557vw , 1.125rem );
-    }
-  }
-  @supports not (font-size: clamp( 1rem , 0.9303135889rem  +  0.3484320557vw , 1.125rem )) {
-    .demonical-card__text {
-      font-size: calc(1rem + 0.125 * (100vw - 20rem) / 35.875);
-    }
-  }
-}
-@media (max-width: 20em) {
-  .demonical-card__text {
-    font-size: 1rem;
-  }
-}
-.demonical-card__text:not(:last-child) {
-  margin-bottom: 0.8888888889em;
-}
-.demonical-card__text p:not(:last-child) {
-  margin-bottom: 0.625rem;
-}
-.demonical-card__right {
-  width: 6.25rem;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  display: flex;
-  flex-direction: column;
-  margin-left: -0.03125rem;
-}
-.demonical-card__right::after {
-  content: "";
-  flex-grow: 1;
-  margin-top: -0.03125rem;
-  background-color: #fff;
-  border-bottom-right-radius: 1.25rem;
-}
-.demonical-card__right::before {
-  content: "";
-  color: #5b7fff;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 80%;
-  aspect-ratio: 1/1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Montserrat", sans-serif;
-  border-bottom-left-radius: 1.5625rem;
-  font-size: 2.375rem;
-  font-weight: 600;
-  line-height: 1.2;
-}
-.demonical-card__right::before {
-  content: counter(cardCounter, decimal-leading-zero);
-}
-.demonical-card__corner {
-  width: 100%;
-  aspect-ratio: 1/1;
-  flex-shrink: 0;
-  clip-path: polygon(0% 0%, 0% 0%, 3.717% 0.543%, 7.114% 1.612%, 10.167% 3.131%, 12.854% 5.025%, 15.152% 7.217%, 17.038% 9.632%, 18.488% 12.194%, 19.481% 14.826%, 19.992% 17.454%, 20% 20%, 20% 54%, 20% 54%, 20% 58.193%, 20.858% 62.159%, 22.468% 65.852%, 24.726% 69.222%, 27.527% 72.223%, 30.765% 74.806%, 34.337% 76.923%, 38.137% 78.526%, 42.059% 79.568%, 46% 80%, 80% 80%, 80% 80%, 83.896% 80.523%, 87.406% 81.582%, 90.519% 83.1%, 93.219% 84.998%, 95.493% 87.198%, 97.328% 89.623%, 98.71% 92.194%, 99.625% 94.832%, 100.06% 97.46%, 100% 100%, 0% 100%, 0% 0%);
-  background-color: #fff;
-} */
-
 /* -------------------- */
