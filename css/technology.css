@@ -7,22 +7,12 @@
     text-align: center;
   }
 }
-@media (max-width: 46.25rem) {
-  .content {
-    gap: 1rem;
-    .content__title {
-        font-size: 2rem;
-    }
-}
-}
-
 .tech__container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr));
   align-items: stretch;
   gap: 1.5625rem;
 }
-
 .card {
   width: calc(100% - 6.25rem);
   aspect-ratio: 590/281;
@@ -36,6 +26,14 @@
   .card {
     padding: 1.25rem;
     padding-right: 0;
+  }
+}
+@media (max-width: 46.25rem) {
+  .content {
+    gap: 1rem;
+    .content__title {
+      font-size: 2rem;
+    }
   }
 }
 .card::before {
