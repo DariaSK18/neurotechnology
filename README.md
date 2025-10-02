@@ -1,7 +1,9 @@
 # Neurotechnology Prototype
 
 A responsive web application prototype inspired by **Brain-Computer Interface (BCI)** concepts.  
-Built with **HTML5, CSS**, this project demonstrates interactive UI components, form, and a clean modular structure.  
+Built with **HTML5, CSS**, this project demonstrates interactive UI components, form, and a clean modular structure.
+
+(This page was inspired by the concept of Neuralink and created for educational and entertainment purposes only.)
 
 ---
 
